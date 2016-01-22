@@ -1,0 +1,112 @@
+%-----------------------------------------
+% Yinghua Wu
+% URL: https://github.com/yhwu/resume.git
+%-----------------------------------------
+
+\documentclass[11pt,letterpaper,final]{moderncv}
+\usepackage{fontspec}
+\moderncvtheme[blue]{classic} %blue, orange, green, red, purple, grey, Casual
+\usepackage{url}
+
+% DOCUMENT LAYOUT
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}
+\AtBeginDocument{\recomputelengths}
+\usepackage[utf8]{inputenc}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+
+% Personal Information 
+\firstname{Yinghua}
+\familyname{Wu}
+\address{3610 Hamilton Walk}{Philadelphia, PA 19104}
+\mobile{(610) 572-2436}
+\email{yinghua@upenn.edu}
+\extrainfo{\url{https://github.com/yhwu}}
+
+
+\title{Yinghua Wu's Resume}
+
+\nopagenumbers{}
+
+\begin{document}
+
+\maketitle
+
+\section{Summary}
+\cvline{}{I have made fundamental contributions in quantum dynamics research. I have strong mathematical abilities and keen intuition.}
+\cvline{}{I have developed statistical analysis methods and pipelines for various cancer treatment studies and gene therapy trials. I have strong numerical and project management skills}
+\cvline{}{My next career objective is to develop predicting algorithms through deep learning and build self updating platforms to constantly improve them.}
+
+
+\section{Experience} 
+\cventry{Oct 2014 -- Present}{Senior Research Investigator}{University of Pennsylvania}{Dept. of Microbiology}{} {
+  \begin{itemize}
+  \item Implemented N-mixture model to estimate number of integrated cells in gene therapy cancer treatments.
+  \item Developed efficient clustering algorithm to classify vector integrated cells.
+  \item Developed highly efficient analysis pipeline based on next generation sequencing for gene therapy trials including Was-Lenti, beta-Thal, SCID1, SCID2, and most recently, CART19 trials.
+  \item Developed analysis pipeline for Dam-ID protocol for HIV genome integration.
+  \end{itemize}
+}
+
+
+\cventry{Jun 2011 -- Sep 2014}{Postdoctoral Research Fellow}{University of Pennsylvania}{Dept. of Biostatistics}{}{
+  \begin{itemize}
+  \item Developed an algorithm to evaluate parent of origin effect based on maximum likelihood ratio test and haplotype frequencies.
+  \item Developed robust segment identification method based on negative binomial transformation for copy number variation detection.
+  \item Developed a copy number variation detection algorithm based on CIGAR string, edit distance, and abnormal pair length.
+  \item  Developed permutation method to control batch effect for RNAseq gene expression studies. 
+  \item Performed genome-wide association studies for eye diseases and identified rare coding SNPs that might be causal factors for long/short sightedness.
+  \end{itemize}
+}
+
+
+\cventry{Aug 2010 -- May 2011}{Programmer analyst}{Collaborative Center for Statistics in Science}{New Haven, CT}{}{
+  \begin{itemize}
+  \item  Developed a coherent sampling algorithm for genotype/phenotype simulations that retains linkage disequilibrium structures for all variants including rare ones.
+  \item Developed imputation method for rare variants based on associations for whole genome studies.
+  \end{itemize}
+}
+
+
+\cventry{May 2007 -- Dec 2008}{Postdoctoral Research Associate}{Georgia Institute of Technology}{Dept. of Chemistry}{}{
+  \begin{itemize}
+  \item Derived a closed form expression for the auto-correlation function for large organic molecules under Duschinsky rotation effect.
+  \item Derived a closed form expression for the photo emission spectrum for large organic LED molecules based on Feynman path integral theory.
+  \end{itemize}
+}
+
+
+\cventry{Jun 2004 -- May 2007}{Postdoctoral Research Associate}{Tulane University}{Dept. of Chemistry}{}{
+  \begin{itemize}
+  \item Developed and theoretically proved the time-dependent semi-classical two-state surface hopping method, which is accurate to the first order of the Planck constant.
+  \item Proved mathematical lemma that the stationary phase approximation to the Feynman path integral is accurate to the first order of the Planck constant or the small number.
+  \end{itemize}
+}
+
+
+\section{Education}
+\cventry{1999 -- 2004}{PHD}{Yale University}{Theoretical Physical Chemistry}{}{
+  \begin{itemize}
+  \item Developed a two-state quantum dynamical propagator for multi-dimensional systems. 
+  \item Developed the matching pursuit split operator Fourier transform method for multi-dimensional quantum dynamical wave function evolution.
+  \end{itemize}
+}
+\cventry{1993 -- 1998}{BS}{University of Science and Technology of China}{Chemistry}{}{}
+
+
+\section{Languages}
+\cvlanguage{English}{Professional}{}
+\cvlanguage{Chinese}{Native}{}
+
+\section{Skill sets}
+\cvline{Computer}{\small Comprehensive: C, C++, Fortran, PERL, R, SQL}
+\cvline{}{\small Functional: Python, PHP}
+\cvline{Bioinformatics}{\small Full stack}
+\cvline{Biostatistics}{\small Advanced}
+\cvline{Math}{\small Advanced}
+\cvline{Miscellaneous}{\small Windows, Office, Linux, HPC}
+
+\end{document}
+
+
