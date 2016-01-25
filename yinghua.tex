@@ -8,12 +8,18 @@
 \moderncvtheme[blue]{classic} %blue, orange, green, red, purple, grey, Casual
 \usepackage{url}
 
+
 % DOCUMENT LAYOUT
 \usepackage[scale=0.85]{geometry}
 \setlength{\hintscolumnwidth}{2.5cm}
 \AtBeginDocument{\recomputelengths}
 \usepackage[utf8]{inputenc}
 \defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+\definecolor{color1}{RGB}{170,10,40}
+\definecolor{color2}{rgb}{0.22,0.45,0.70}% light blue
+\definecolor{color4}{rgb}{0.01, 0.31, 0.59}
+
 
 
 % Personal Information 
@@ -22,10 +28,11 @@
 \address{3610 Hamilton Walk}{Philadelphia, PA 19104}
 \mobile{(610) 572-2436}
 \email{yinghua@upenn.edu}
-\extrainfo{\url{https://github.com/yhwu}}
+%\extrainfo{\url{https://github.com/yhwu}}
+\social[linkedin]{wuyinghua}
+\social[github]{yhwu}
 
-
-\title{Yinghua Wu's Resume}
+\title{Senior Research Investigator}
 
 \nopagenumbers{}
 
@@ -34,8 +41,8 @@
 \maketitle
 
 
-\section{Summary}
-\cventry{}{Eligible to work in US}{}{}{} {
+\section{\textcolor{color4}{Summary}}
+\cvline{}{
   \begin{itemize}
   \item I have made fundamental contributions in quantum dynamics research. I have strong mathematical abilities and keen intuition.
   \item I have developed statistical analysis methods and pipelines for various cancer treatment studies and gene therapy trials. I have strong numerical and project management skills.
@@ -44,7 +51,7 @@
 }
 
 
-\section{Experience} 
+\section{\textcolor{color4}{Experience}}
 \cventry{Oct 2014 -- Present}{Senior Research Investigator}{University of Pennsylvania}{Dept. of Microbiology}{} {
   \begin{itemize}
   \item Implemented N-mixture model to estimate number of integrated cells in gene therapy cancer treatments.
@@ -60,7 +67,7 @@
   \item Developed an algorithm to evaluate parent of origin effect based on maximum likelihood ratio test and haplotype frequencies.
   \item Developed robust segment identification method based on negative binomial transformation for copy number variation detection.
   \item Developed a copy number variation detection algorithm based on CIGAR string, edit distance, and abnormal pair length.
-  \item Developed permutation method to control batch effect for RNAseq gene expression studies. 
+  \item  Developed permutation method to control batch effect for RNAseq gene expression studies. 
   \item Performed genome-wide association studies for eye diseases and identified rare coding SNPs that might be causal factors for long/short sightedness.
   \end{itemize}
 }
@@ -90,7 +97,7 @@
 }
 
 
-\section{Education}
+\section{\textcolor{color4}{Education}}
 \cventry{1999 -- 2004}{PHD}{Yale University}{Theoretical Physical Chemistry}{}{
   \begin{itemize}
   \item Developed a two-state quantum dynamical propagator for multi-dimensional systems. 
@@ -100,11 +107,11 @@
 \cventry{1993 -- 1998}{BS}{University of Science and Technology of China}{Chemistry}{}{}
 
 
-\section{Languages}
-\cvlanguage{English}{Professional}{}
-\cvlanguage{Chinese}{Native}{}
+\section{\textcolor{color4}{Languages}}
+\cvline{English}{Professional}
+\cvline{Chinese}{Native}
 
-\section{Skill sets}
+\section{\textcolor{color4}{Skill sets}}
 \cvline{Computer}{\small Comprehensive: C, C++, Fortran, PERL, R, SQL}
 \cvline{}{\small Functional: Python, PHP}
 \cvline{Bioinformatics}{\small Full stack}
